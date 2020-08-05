@@ -1,0 +1,50 @@
+git config --global user.name "nombre"   | nobre del usuario
+git config --gloal  user.email "email"   | gmail del usuario
+git config --global -l                   | confirmar camibios
+
+git init   			         | donde se van a ser los 
+				           camios en el repositorio
+git add --all
+git add -A
+git add .                                | agragar a git todos los archivos
+
+git status  				 | ver el estado de los archivos
+
+git commit -m "hacer cambios"            | comfirmar camios com mensage
+
+git diff				 | ver que se modifico 
+					   anteriormente
+
+git add nombrecarpeta/                   | agregar nueva carpeta a git
+
+git add nombrecarpeta/*.extencion        | agregar solo esa extencion
+
+git reset nombrearchivo	o carpeta	 | remover de git
+
+git log					 | ver el historia de cambios
+
+git config --global alias.apodo "nomre del comando"  | crear un aliar al comando
+
+git mw nombrearchivo.extecion nombreNuevo | renombrar archivo
+
+git rm nombredelarchivo.rxtencion         | remover archivo 
+
+
+git reset --soft idhistorial              | recuperar el ultimo movibiendo que se borro en el
+					    historial solo recupera historial
+
+
+git reset --hard idhistorial              | recupera el ultimo movimiento hecho ya sea eliminado 
+						modificado agregado
+
+
+git reflog 				  | ver todos los moviendot hechos anque se hallan 
+						eliminado
+
+
+
+ 
+
+
+
+

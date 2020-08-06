@@ -41,6 +41,16 @@ git reset --hard idhistorial              | recupera el ultimo movimiento hecho 
 git reflog 				  | ver todos los moviendot hechos anque se hallan 
 						eliminado
 
+git reset --mixed idHistoria		  | borra el historial hasta este punto
+
+git reset --soft  idHistoria		  | te muestra desde ese punto hacia atras del historial
+
+git commit --amend -m ""		  | Modifica el ultimo comentario del historial
+
+git checkout 				  | ver la version anterior
+
+.gitignore				  | ignora los archivos que nosotros quramos puestos en esa carpeta
+
 
 
  
